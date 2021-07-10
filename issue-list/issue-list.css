@@ -13,6 +13,8 @@ nav{
     background-color: white;
     display: flex;
     position: sticky;
+    top: 0;
+  /* z-index: 100; */
     width: 100%;
     justify-content: space-between;
     /* align-items: stretch; */
@@ -231,6 +233,7 @@ main{
 #content{
     display: grid;
     grid-template-columns: auto auto auto;
+    /* grid-auto-flow: row; */
     /* background-color: blue; */
     /* grid-column-gap: 20px; */
     /* grid-row-gap: 50px; */
@@ -244,7 +247,17 @@ main{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* padding: 20px; */
     /* width:100%; */
+    /* display: flex;
+    flex-direction: column; */
+    /* height: 100%; */
 }
+
+/* #app2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    float: right;
+} */
+
 #content h4{
     padding-left: 2rem;
 }

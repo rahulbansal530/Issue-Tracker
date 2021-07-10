@@ -42,19 +42,21 @@
                 
                 <div class="right-links">
                     <a id="item2">Filter</a>
-                    <a id="item3">Project</a>
+                    <select default="Project" id="item3">Project</select>
+                    <!-- <a id="itemx"><img src="../images/down-arrow.png"></a> -->
                     <a id="item4"><img src="../images/Grid.svg"></a>
                     <a id="item5"><img src="../images/List deactivated.svg"></a>
                 </div>
                 
             </div>
             
+
             <div id="content">
                 <!-- <div> -->
-                    <div class="column">
+                    <div id="app1" class="column">
                         <h4>To Do</h4>
                         <!-- Hyperlinking -->
-                        <div id="card">
+                        <!-- <div id="card">
                             <div id=card-id-and-date>
                                 <a id="id">ID:PCG836342</a>
                                 <a id="date">January 02 2019</a>
@@ -82,13 +84,41 @@
                                 </a>
                             </div>
                         </div>
+                        <div id="card">
+                            <div id=card-id-and-date>
+                                <a id="id">ID:PCG836342</a>
+                                <a id="date">January 02 2019</a>
+                            </div>
+                            <div id="issue-name">
+                                <a>Lorem ipsum dolor sit</a>
+                            </div>
+                            <div id="card-content">
+                                <a>sisiw shw </a>
+                            </div>
+                            <div id=card-assignee-and-status>
+                                <a id="asignee">Assignee</a>
+                                <a id="status">Status</a>
+                            </div>
+                            <div id="card-profile-and-status">
+                                <div id="profile">
+                                    <a><img src="../images/user_1.svg"></a>
+                                    <div id="card-name-and-designation">
+                                        <a>Sijo M Peter</a>
+                                        <a>UI/UX Designer</a>
+                                    </div>
+                                </div>
+                                <a id="priority">
+                                    High Priority
+                                </a>
+                            </div>
+                        </div> -->
                     </div>
                 <!-- </div> -->
                 <!-- <div> -->
-                    <div class="column">
-                        <h4>To Do</h4>
+                    <div id="app2" class="column">
+                        <h4>In Progress</h4>
                         <!-- Hyperlinking -->
-                        <div id="card">
+                        <!-- <div id="card">
                             <div id=card-id-and-date>
                                 <a id="id">ID:PCG836342</a>
                                 <a id="date">January 02 2019</a>
@@ -115,14 +145,14 @@
                                     High Priority
                                 </a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 <!-- </div> -->
                 <!-- <div> -->
-                    <div class="column">
-                        <h4>To Do</h4>
+                    <div id="app3" class="column">
+                        <h4>Done</h4>
                         <!-- Hyperlinking -->
-                        <div id="card">
+                        <!-- <div id="card">
                             <div id=card-id-and-date>
                                 <a id="id">ID:PCG836342</a>
                                 <a id="date">January 02 2019</a>
@@ -149,13 +179,13 @@
                                     High Priority
                                 </a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 <!-- </div> -->
             </div>
 
         </main>
     </div>
-    
+    <script src="../src/app.ts"></script>
 </body>
 </html>
